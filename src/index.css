@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  background-color: #0B0B0B;
+}
+
+label {
+  font-weight: 300;
+}
+.inputs {
+  width: 400px;
+  height: 45px;
+  padding-left: 1.5em;
+  border-radius: 50px;
+  border: 1px solid rgba(223, 220, 220, 0.75);
+  background-color: transparent;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  outline: none;
+}
