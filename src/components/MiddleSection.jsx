@@ -6,7 +6,7 @@ const MiddleSection = () => {
     <section className="flex flex-col p-[6em] text-Inter space-y-[10em]">
       <div className="flex items-center justify-between">
         <div className=" flex flex-col w-[35%] space-y-[2em]">
-          <p className="text-[52px] font-[700] leading-[57px]">Grow and sell social media <span className="text-customPink">pages</span></p>
+          <p className="text-[52px] font-[700] leading-[57px]">Social Media Acoount <span className="text-customPink">Marketplace</span></p>
           <p className="text-[20px] opacity-50 font-[300]">Take your social media success to the next level? 
             Sell your established social media pages and profit from your hard work.
           </p>
@@ -21,9 +21,8 @@ const MiddleSection = () => {
           <img src={Image3} alt=""/>
         </div>
         <div className=" flex flex-col w-[35%] space-y-[2em]">
-          <p className="text-[52px] font-[700] leading-[57px]">Grow and sell social media <span className="text-customPink">pages</span></p>
-          <p className="text-[20px] opacity-50 font-[300]">Take your social media success to the next level? 
-            Sell your established social media pages and profit from your hard work.
+          <p className="text-[52px] font-[700] leading-[57px]">Reach a large business <span className="text-customPink">Audience</span></p>
+          <p className="text-[20px] opacity-50 font-[300]">Social media accounts of all sizes, from small personal accounts to large influencer accounts.
           </p>
         </div>
       </div>

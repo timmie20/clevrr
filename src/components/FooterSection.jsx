@@ -8,8 +8,8 @@ const FooterSection = () => {
       <img src={Image4} alt="twitter logo" />
       <div className="flex flex-col items-center font-Inter w-[50%] my-[auto] space-y-[2em]">
         <p className="text-white text-[52px] font-[700] text-center leading-[60px]">
-        Ready to grow viral and make your first <span className="text-customPink">$</span>
-        </p> 
+        Ready to grow viral and make your first <span className="text-customPink">$ </span>
+        off clevrr</p> 
         <GetstartedBtn />
       </div>
       <img src={Image5} alt="tic-tok logo"/>

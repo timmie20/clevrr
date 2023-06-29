@@ -7,9 +7,8 @@ const HeroSection = () => {
       <div className="flex flex-col space-y-[2.5em] text-white w-[43%] ml-[6em] my-[4em] items-start">
         <p className="text-[64px] font-[700] -mb-8">Grow and sell social media <span className="text-customPink"> pages</span> </p>
         <p className="text-[20px] w-[73%] opacity-50 font-[300]">
-          Take your social media success to the next level? Sell 
-          your established social media pages and profit from your hard work.
-        </p>
+        A platform where you can buy, sell, and manage social media accounts. Whether you're looking 
+        to grow your own social media presence or start a business.</p>
         <GetstartedBtn />
       </div>
       <div className="w-[600px]">
