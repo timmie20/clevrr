@@ -7,9 +7,9 @@ export default {
   theme: {
     screens : {
       sm: '480px',
-      md: '760px',
-      lg : '976px',
-      xl :'1440px'
+      md: '790px',
+      lg : '835px',
+      xl :'1280px'
     },
     fontFamily: {
       Inter: ['Inter', 'sans-serif'],

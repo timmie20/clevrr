@@ -23,7 +23,7 @@ const Login = () => {
             <Link to='/' style={{color: '#007FFF'}}>Back to home</Link>
             <div className="flex">
               <p>I don't have an account -</p>
-              <Link to='/signup' style={{color: '#007FFF'}}>Signup</Link>
+              <Link to='/signup' style={{color: '#007FFF'}}>Signup for clevrr</Link>
             </div>
           </div>
         </div>
