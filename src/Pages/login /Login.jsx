@@ -20,10 +20,10 @@ const Login = () => {
           </div>
           <button className="w-[400px] h-[45px] bg-customPink rounded-full font-Rubik font-[400]">Login</button>
           <div className="text-[14px] flex flex-col items-center">
-            <Link to='/' style={{color: '#007FFF'}}>Back to home</Link>
+            <Link to='/' style={{color: '#F71B5D'}}>Back to home</Link>
             <div className="flex">
               <p>I don't have an account -</p>
-              <Link to='/signup' style={{color: '#007FFF'}}>Signup for clevrr</Link>
+              <Link to='/signup' style={{color: '#F71B5D'}}>Signup for clevrr</Link>
             </div>
           </div>
         </div>
