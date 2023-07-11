@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import {MdCopyright} from "react-icons/md"
 
 const Footer = () => {
   return (
@@ -13,7 +14,10 @@ const Footer = () => {
           <NavLink to='/about'>About</NavLink>
         </div>
       </div>
-        <p>Copyright @2023</p>
+      <p className="flex items-center">
+        <MdCopyright size={16} color='#888' />
+        copyright {new Date().getFullYear()}
+      </p>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const FooterSection = () => {
       <img className="absolute w-[20%] left-0" src={Image4} alt="twitter logo" />
       <img className="absolute w-[20%] right-0" src={Image5} alt="tic-tok logo"/>
       <div className="flex flex-col justify-center items-center font-Inter my-[auto] mx-[auto] space-y-[2em]">
-        <p className="text-white text-[32px] p-4 font-[700] text-center md:w-[50%] md:text-[52px]">
+        <p className="text-white text-3xl font-[700] text-center md:w-[50%] md:text-5xl md:leading-normal">
         Ready to grow viral and make your first <span className="text-customPink">$ </span>
         off clevrr</p> 
         <GetstartedBtn />
@@ -17,5 +17,4 @@ const FooterSection = () => {
 
   )
 }
-
 export default FooterSection
