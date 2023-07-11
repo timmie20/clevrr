@@ -6,7 +6,8 @@ import { useEffect } from "react"
 
 const Navbar = () => {
   const[isOpen , setIsOpen] = useState(false)
-  const {pathname} = useLocation()
+  
+  const { pathname } = useLocation()
   useEffect(() => {
     setIsOpen(false)
   }, [pathname])
