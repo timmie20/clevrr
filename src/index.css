@@ -2,16 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+.active-navbar {
+  font-weight: 700;
+  color: #f71b5d;
+}
+
 label {
   font-weight: 300;
 }
 .inputs {
   height: 45px;
   padding-left: 1.5em;
-  border-radius: 50px;
+  border-radius: 10px;
   border: 1px solid rgba(223, 220, 220, 0.75);
   background-color: transparent;
   font-size: 15px;
   outline: none;
   letter-spacing: 1px;
+}
+input.input-error,
+select.input-error {
+  border-color: rgb(198, 43, 43);
+}
+
+button:disabled {
+  opacity: 0.35;
 }
